@@ -23,7 +23,8 @@
         "drupal/core-vendor-hardening": "^8.8",
         "drupal/country": "^1.0@beta",
         "drupal/flags": "^1.0@beta",
-        "drupal/pathauto": "^1.6"
+        "drupal/pathauto": "^1.6",
+        "drush/drush": "9.x"
     },
     "conflict": {
         "drupal/drupal": "*"
