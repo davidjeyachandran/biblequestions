@@ -23,6 +23,7 @@
         "drupal/core-vendor-hardening": "^8.8",
         "drupal/country": "^1.0@beta",
         "drupal/flags": "^1.0@beta",
+        "drupal/mail_login": "^1.1",
         "drupal/pathauto": "^1.6",
         "drush/drush": "9.x"
     },
