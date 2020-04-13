@@ -20,12 +20,12 @@ class NodeAddLinkBlock extends BlockBase {
    */
   public function build() {
     $link = Link::createFromRoute(
-      'Create Question',
+      t('Create Question'),
       'node.add',
       ['node_type' => 'question'],
       [
         'attributes' => [
-          'class' => 'use-ajax',
+          'class' => array('use-ajax', 'button', 'button--primary'),
           'data-dialog-type' => 'modal',
           'data-dialog-options' => json_encode([
             'width' => 800,

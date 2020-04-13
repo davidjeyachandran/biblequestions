@@ -17,7 +17,7 @@
   background-color: #fff;
   background-image: -webkit-linear-gradient(top, #f3f3f3, #e8e8e8);
   background-image: linear-gradient(to bottom, #f3f3f3, #e8e8e8);
-  font-family: "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
   font-size: 0.929em;
   font-weight: normal;
   line-height: normal;
@@ -37,4 +37,24 @@
   color: #717171;
   border-color: #bbb;
   background: #ededed;
+}
+
+.button--primary {
+  color: #fff;
+  border-color: #1e5c90;
+  background-color: #0071b8;
+  background-image: -webkit-linear-gradient(top, #007bc6, #0071b8);
+  background-image: linear-gradient(to bottom, #007bc6, #0071b8);
+  text-shadow: 0 1px hsla(0, 0%, 0%, 0.5);
+  font-weight: 700;
+  -webkit-font-smoothing: antialiased;
+}
+
+.button--primary:hover,
+.button--primary:focus {
+  color: #fff;
+  border-color: #1e5c90;
+  background-color: #2369a6;
+  background-image: -webkit-linear-gradient(top, #0c97ed, #1f86c7);
+  background-image: linear-gradient(to bottom, #0c97ed, #1f86c7);
 }
